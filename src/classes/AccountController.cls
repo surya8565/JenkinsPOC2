@@ -7,5 +7,7 @@ public with sharing class AccountController {
             WHERE Location__Latitude__s != NULL AND Location__Longitude__s != NULL
             LIMIT 100];
     }
+    public static void testmethod(){
+	}
 
 }
